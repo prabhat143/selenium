@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="seleniumproject">
+  <test name="Test">
+  <!--  <groups>
+  <run>
+  <include name="tasks"></include>
+  </run>
+  </groups>-->
+  <parameter name="uname" value="gaddamprabhat"></parameter>
+  <parameter name="pass" value="1947@India"></parameter>
+  <classes>
+ <!--  <class name="testNg.Annotationdemo"></class>
+  <class name="testNg.Demo1"></class>
+  <class name="testNg.ActiTime"></class>-->
+  <class name="testNg.LoginToGmail"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- seleniumproject -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [seleniumproject]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="uname" value="gaddamprabhat"/>
+    <parameter name="pass" value="1947@India"/>
+    <classes>
+      <class name="testNg.LoginToGmail">
+        <methods>
+          <include name="login"/>
+          <include name="PreConditionS"/>
+        </methods>
+      </class> <!-- testNg.LoginToGmail -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [seleniumproject] -->
